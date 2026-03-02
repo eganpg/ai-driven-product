@@ -12,45 +12,7 @@ Every phase of the agile lifecycle gets an agent layer that handles toil, genera
 
 Each phase of the agile lifecycle is supported by a dedicated agent. An orchestrator manages the full lifecycle, routing work and carrying context between phases. Humans approve artifacts at each gate before the next phase begins.
 
-```mermaid
-flowchart TD
-    OA["Orchestrator Agent\nManages lifecycle, state & context"]
-
-    OA --> DA
-
-    DA["Discovery Agent\nProduct brief · Story candidates · Compliance flags"]
-    DA --> G1{Human Approval}
-    G1 --> BA
-
-    BA["Backlog Agent\nStories · Acceptance criteria · Prioritized backlog"]
-    BA --> G2{Human Approval}
-    G2 --> PA
-
-    PA["Planning Agent\nSprint plan · Risk flags · Capacity summary"]
-    PA --> G3{Human Approval}
-    G3 --> DesA
-
-    DesA["Design Agent\nADRs · Data models · API contracts"]
-    DesA --> G4{Human Approval}
-    G4 --> DevA
-
-    DevA["Development Agent\nCode · Tests · PR review · Documentation"]
-    DevA --> G5{Human Approval}
-    G5 --> QAA
-
-    QAA["QA Agent\nTest suite · Security scan · Compliance attestation"]
-    QAA --> G6{Human Approval}
-    G6 --> RA
-
-    RA["Release Agent\nRelease notes · Demo script · Stakeholder summary"]
-    RA --> G7{Human Approval}
-    G7 --> RetA
-
-    RetA["Retro Agent\nMetrics · Pattern analysis · Action items"]
-    RetA -->|Next Sprint| DA
-```
-
-→ [Detailed phase breakdown](docs/sdlc-phases.md)
+→ [Architecture diagram & phase breakdown](docs/agent-architecture.md) · [Detailed phase breakdown](docs/sdlc-phases.md)
 
 ## Proprietary Agent Ownership
 

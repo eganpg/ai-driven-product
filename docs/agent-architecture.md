@@ -6,18 +6,44 @@ This document describes the design of the proprietary agent system — the orche
 
 ## Overview
 
-The system is organized as a two-layer hierarchy:
+The system is organized as a two-layer hierarchy: an orchestrator that manages the full lifecycle, and eight phase sub-agents that each own a specific stage of the SDLC. Artifacts flow between phases through the orchestrator, and humans approve work at each gate before the next phase begins.
 
-```
-Orchestrator Agent
-├── Discovery Agent
-├── Backlog Agent
-├── Planning Agent
-├── Design Agent
-├── Development Agent
-├── QA Agent
-├── Release Agent
-└── Retro Agent
+```mermaid
+flowchart TD
+    OA["Orchestrator Agent\nManages lifecycle, state & context"]
+
+    OA --> DA
+
+    DA["Discovery Agent\nProduct brief · Story candidates · Compliance flags"]
+    DA --> G1{Human Approval}
+    G1 --> BA
+
+    BA["Backlog Agent\nStories · Acceptance criteria · Prioritized backlog"]
+    BA --> G2{Human Approval}
+    G2 --> PA
+
+    PA["Planning Agent\nSprint plan · Risk flags · Capacity summary"]
+    PA --> G3{Human Approval}
+    G3 --> DesA
+
+    DesA["Design Agent\nADRs · Data models · API contracts"]
+    DesA --> G4{Human Approval}
+    G4 --> DevA
+
+    DevA["Development Agent\nCode · Tests · PR review · Documentation"]
+    DevA --> G5{Human Approval}
+    G5 --> QAA
+
+    QAA["QA Agent\nTest suite · Security scan · Compliance attestation"]
+    QAA --> G6{Human Approval}
+    G6 --> RA
+
+    RA["Release Agent\nRelease notes · Demo script · Stakeholder summary"]
+    RA --> G7{Human Approval}
+    G7 --> RetA
+
+    RetA["Retro Agent\nMetrics · Pattern analysis · Action items"]
+    RetA -->|Next Sprint| DA
 ```
 
 The orchestrator manages workflow state and context passing. Sub-agents are specialized for their phase and operate independently when invoked.
