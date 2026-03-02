@@ -22,7 +22,7 @@ The system has two layers:
 - **Orchestrator Agent** — manages the full lifecycle, routes work, carries context between phases
 - **Phase Sub-Agents** — specialized agents per SDLC phase, each owning specific inputs and outputs
 
-→ [Agent architecture](docs/agent-architecture.md) · [Build vs. buy rationale](docs/proprietary-agents.md)
+→ [Agent architecture](docs/agent-architecture.md) · [Build vs. buy rationale](docs/proprietary-agents.md) · [Encoding firm knowledge into agents](docs/agent-memory.md)
 
 ## Federal Context
 
