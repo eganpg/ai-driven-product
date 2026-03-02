@@ -39,13 +39,12 @@ Federal engagements have non-negotiable requirements around compliance, data sov
 
 ## The Value Proposition
 
-| Traditional Agile | Agent-Based Agile |
-|---|---|
-| Requirements written manually | Agents draft from source documents |
-| Stories written in planning meetings | Agents generate from requirements |
-| Tests written after code | Tests generated alongside code |
-| Docs written at the end | Docs generated continuously |
-| Reviews bottlenecked by bandwidth | Agent pre-review before human review |
+- **Faster delivery** — agents compress weeks of drafting, review prep, and documentation into hours
+- **Consistent quality** — every engagement benefits from accumulated firm expertise, not just who's on the project
+- **Reduced risk** — compliance and security are caught sprint by sprint, not at delivery
+- **Defensible IP** — proprietary agents are a compounding asset that competitors using generic tools cannot replicate
+
+→ [How this compares to traditional agile](docs/proprietary-agents.md)
 
 ## Tooling
 

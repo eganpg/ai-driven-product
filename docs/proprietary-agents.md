@@ -17,6 +17,18 @@ Proprietary agents change that. Each agent built is an investment that:
 
 ---
 
+## AI-Native vs. Traditional Agile
+
+| Traditional Agile | Agent-Based Agile |
+|---|---|
+| Requirements written manually | Agents draft from source documents |
+| Stories written in planning meetings | Agents generate from requirements |
+| Tests written after code | Tests generated alongside code |
+| Docs written at the end | Docs generated continuously |
+| Reviews bottlenecked by bandwidth | Agent pre-review before human review |
+
+---
+
 ## Why Off-the-Shelf Isn't Enough
 
 | Capability | Off-the-Shelf | Proprietary Agent |
