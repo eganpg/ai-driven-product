@@ -8,12 +8,6 @@ A reference implementation and workflow guide demonstrating how a federal softwa
 
 Every phase of the agile lifecycle gets an agent layer that handles toil, generates artifacts, and accelerates human decision-making. Humans stay in the loop at decision gates — agents do the drafting, structuring, and analysis.
 
-## Agent-Based SDLC
-
-Each phase of the agile lifecycle is supported by a dedicated agent. An orchestrator manages the full lifecycle, routing work and carrying context between phases. Humans approve artifacts at each gate before the next phase begins.
-
-→ [Architecture diagram & phase breakdown](docs/agent-architecture.md) · [Detailed phase breakdown](docs/sdlc-phases.md)
-
 ## Proprietary Agent Ownership
 
 Sustainable competitive advantage comes from **building and owning the agents themselves**. Proprietary agents encode your firm's process knowledge, compliance expertise, and delivery patterns — and compound in value over time.
@@ -23,6 +17,12 @@ The system has two layers:
 - **Phase Sub-Agents** — specialized agents per SDLC phase, each owning specific inputs and outputs
 
 → [Agent architecture](docs/agent-architecture.md) · [Build vs. buy rationale](docs/proprietary-agents.md) · [Encoding firm knowledge into agents](docs/agent-memory.md)
+
+## Agent-Based SDLC
+
+Each phase of the agile lifecycle is supported by a dedicated agent. An orchestrator manages the full lifecycle, routing work and carrying context between phases. Humans approve artifacts at each gate before the next phase begins.
+
+→ [Architecture diagram & phase breakdown](docs/agent-architecture.md) · [Detailed phase breakdown](docs/sdlc-phases.md)
 
 ## Federal Context
 
