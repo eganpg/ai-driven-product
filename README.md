@@ -52,6 +52,52 @@ Every phase of the agile lifecycle gets an agent layer that handles toil, genera
 - Draft action items from retro notes
 - **Output:** structured retro summary with improvement signals
 
+## Proprietary Agent Ownership
+
+Off-the-shelf AI tools provide a foundation, but sustainable competitive advantage in federal consulting comes from **building and owning the agents themselves**. Proprietary agents encode your firm's process knowledge, compliance expertise, and delivery patterns — and compound in value over time.
+
+### Why Ownership Matters
+
+- **Institutional knowledge is captured in code**, not locked in individual consultants' heads
+- **Repeatable quality** across engagements and teams, not dependent on who's available
+- **Competitive differentiation** — your agents reflect your methodology, not a vendor's generic workflow
+- **Data sovereignty** — federal clients require control over where data flows; owned agents keep that control in-house
+- **Continuous improvement** — agents get better with every project, creating a compounding advantage
+
+### The Agent Hierarchy
+
+A proprietary agent system has two layers:
+
+**Orchestrator Agent**
+A top-level agent that manages the full SDLC lifecycle. It routes work to the appropriate phase agents, carries context between phases, tracks artifact state, and surfaces blockers to human reviewers. This agent embodies your firm's end-to-end delivery methodology.
+
+**Phase Sub-Agents**
+Specialized agents, one per SDLC phase, each trained on the specific domain knowledge and output format required for that phase:
+
+| Sub-Agent | Owns |
+|---|---|
+| Discovery Agent | RFP/requirements ingestion, product brief generation |
+| Backlog Agent | Story writing, acceptance criteria, compliance tagging |
+| Planning Agent | Sprint composition, risk flagging, velocity analysis |
+| Design Agent | ADRs, data models, API contracts, design consistency |
+| Development Agent | Code generation, PR review, documentation |
+| QA Agent | Test case generation, security scanning, compliance attestation |
+| Release Agent | Release notes, demo scripts, stakeholder summaries |
+| Retro Agent | Metrics analysis, pattern detection, action item drafting |
+
+### Build vs. Buy
+
+| Capability | Off-the-Shelf | Proprietary Agent |
+|---|---|---|
+| General task execution | Yes | Yes |
+| Firm-specific process knowledge | No | Yes |
+| Federal compliance rules baked in | No | Yes |
+| Improves with your project history | No | Yes |
+| Client data stays in-house | Depends | Yes |
+| Differentiated IP | No | Yes |
+
+The strategy is not to replace general-purpose AI tools — it's to wrap them with proprietary orchestration, prompt engineering, and process logic that reflects your firm's unique expertise.
+
 ## Key Principles
 
 1. **Agents handle toil; humans handle judgment** — drafting, formatting, searching, and summarizing are agent tasks; decisions, approvals, and accountability stay human
