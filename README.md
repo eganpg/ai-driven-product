@@ -24,20 +24,22 @@ Each phase of the agile lifecycle is supported by a dedicated agent. An orchestr
 
 → [Architecture diagram & phase breakdown](docs/agent-architecture.md) · [Detailed phase breakdown](docs/sdlc-phases.md)
 
-## Federal Context
+## Addendum
+
+### Federal Context
 
 Federal engagements have non-negotiable requirements around compliance, data sovereignty, and auditability. These are built into the agent design from the start — not added at the end.
 
 → [Federal considerations](docs/federal-considerations.md)
 
-## Key Principles
+### Key Principles
 
 1. **Agents handle toil; humans handle judgment** — drafting, formatting, searching, and summarizing are agent tasks; decisions, approvals, and accountability stay human
 2. **Every agent output is a starting point, not a final answer** — humans review and refine
 3. **Artifacts flow between phases** — agents carry context forward (requirements inform tests, stories inform docs)
 4. **Federal context is first-class** — compliance, security, and auditability are built into every phase, not bolted on at the end
 
-## The Value Proposition
+### The Value Proposition
 
 - **Faster delivery** — agents compress weeks of drafting, review prep, and documentation into hours
 - **Consistent quality** — every engagement benefits from accumulated firm expertise, not just who's on the project
@@ -46,7 +48,7 @@ Federal engagements have non-negotiable requirements around compliance, data sov
 
 → [How this compares to traditional agile](docs/proprietary-agents.md)
 
-## Tooling
+### Tooling
 
 - **AI:** Claude (Anthropic) — `claude-sonnet-4-6` for most tasks, `claude-opus-4-6` for complex reasoning
 - **Interface:** Claude Code for agentic development workflows
