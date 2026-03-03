@@ -7,8 +7,8 @@ Update each section as the brand evolves. Example files are in `brand/examples/`
 
 ## Typography
 
-- **Document title font:** Large serif font, centered (cover page) — exact font TBD
-- **Body font:** Sans-serif, regular weight — exact font TBD
+- **Document title font:** Source Sans Regular, centered (cover page) — via Google Fonts
+- **Body font:** Source Sans, regular weight — via Google Fonts
 - **Section headings (H1):** Bold, brand teal color
 - **Sub-headings (H2):** Bold, black
 - **Table cell text:** Italic
