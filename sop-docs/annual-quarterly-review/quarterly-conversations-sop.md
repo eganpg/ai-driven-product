@@ -62,9 +62,9 @@ Applies to all Oddball employees, supervisors/reviewers, Program Managers (PgMs)
 
 ## 9. References
 
-- Paylocity Quarterly Conversations Instructions
-- MFS and IIR QC's and Annual GoogleSheet (tracker)
-- Rocks Spreadsheet
+- [Paylocity Quarterly Conversations Instructions](https://drive.google.com/file/d/1tkw4ZbUCdtURSTBFoQLnnf_MMQh7z8kR/view)
+- MFS and IIR QC's and Annual GoogleSheet (tracker) — TBD
+- [Rocks Spreadsheet](https://docs.google.com/spreadsheets/d/1orXdJK4P9L7oPyQzfttwizjMFMsbNSxxHuR_on7mze8/edit?gid=1071586817#gid=1071586817)
 
 ## 10. Deviations
 
