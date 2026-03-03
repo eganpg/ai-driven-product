@@ -72,6 +72,7 @@ When the user says "use the [name] skill" or "run the [name] skill", read `skill
 | Skill | Path | Description |
 |---|---|---|
 | sop-creator | `skills/sop-creator/SKILL.md` | Guides user through creating a Standard Operating Procedure |
+| brand-apply | `skills/brand-apply/SKILL.md` | Applies company branding to any document |
 
 ## Documentation Map
 
