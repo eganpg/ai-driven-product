@@ -64,6 +64,15 @@ Firm-wide baseline context is distributed via CLAUDE.md files:
 
 Agent system prompts are the other memory vector — firm knowledge baked into each phase agent's prompt.
 
+## Skills
+
+Custom skills live in `skills/` — each subfolder contains a `SKILL.md` with instructions.
+When the user says "use the [name] skill" or "run the [name] skill", read `skills/[name]/SKILL.md` and execute it.
+
+| Skill | Path | Description |
+|---|---|---|
+| sop-creator | `skills/sop-creator/SKILL.md` | Guides user through creating a Standard Operating Procedure |
+
 ## Documentation Map
 
 | Topic | File |
